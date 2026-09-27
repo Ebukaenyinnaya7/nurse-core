@@ -100,7 +100,7 @@ header .content .fa-x:hover {
   width: 100%;
 }
 .hero .container .content {
-  width: 768px;
+  width: 65%;
 }
 .hero .container .content h6 {
   font-family: "Roboto", sans-serif;
@@ -114,7 +114,7 @@ header .content .fa-x:hover {
   margin-bottom: 30px;
 }
 .hero .container .content .head .topic {
-  width: 768px;
+  width: 65%;
 }
 .hero .container .content .head .topic h1 {
   font-family: "Inter", sans-serif;
@@ -162,6 +162,14 @@ header .content .fa-x:hover {
   color: #005f73;
 }
 @media only screen and (max-width: 950px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .container {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 650px) {
   .hero {
     flex-wrap: wrap;
   }

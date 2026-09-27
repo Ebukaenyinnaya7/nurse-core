@@ -182,6 +182,14 @@ header .content .fa-x:hover {
   .hero .container .left {
     width: 100%;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .hero .container .left .topic {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .hero .container .left .topic h1 {
+    width: 100%;
   }
   .hero .container .right {
     width: 100%;
@@ -261,9 +269,11 @@ header .content .fa-x:hover {
 @media only screen and (max-width: 950px) {
   .signup {
     flex-wrap: wrap;
+    height: fit-content;
   }
   .signup .container {
     flex-wrap: wrap;
+    height: fit-content;
   }
   .signup .container .left {
     width: 100%;

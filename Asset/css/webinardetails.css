@@ -150,7 +150,6 @@ header .content .fa-x:hover {
   margin-bottom: 30px;
 }
 .hero .content .container .right .column .item {
-  width: fit-content;
   margin-right: 90px;
 }
 .hero .content .container .right .column .item h6 {
@@ -176,7 +175,6 @@ header .content .fa-x:hover {
   margin-bottom: 30px;
 }
 .hero .content .container .right .column2 .item {
-  width: fit-content;
   padding-right: 10px;
 }
 .hero .content .container .right .column2 .item h6 {
@@ -203,6 +201,8 @@ header .content .fa-x:hover {
   .hero .content {
     flex-wrap: wrap;
     width: 100%;
+    padding: 1%;
+    margin: 0;
   }
   .hero .content .container {
     flex-wrap: wrap;
@@ -228,6 +228,61 @@ header .content .fa-x:hover {
     justify-content: left;
     gap: 360px;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .image {
+    width: 100%;
+  }
+  .hero .content {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .hero .content .container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .hero .content .container .left {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .content .container .left .topic {
+    width: 100%;
+  }
+  .hero .content .container .left .topic h1 {
+    font-size: 52px;
+  }
+  .hero .content .container .left .topic p {
+    font-size: 14px;
+  }
+  .hero .content .container .left .nav {
+    width: 100%;
+  }
+  .hero .content .container .right {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .hero .content .container .right .column {
+    justify-content: space-between;
+    width: 100%;
+    display: block;
+  }
+  .hero .content .container .right .column .item {
+    margin-bottom: 20px;
+  }
+  .hero .content .container .right .column2 {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hero .content .container .right .column2 .item {
+    margin-bottom: 20px;
   }
 }
 
@@ -278,7 +333,7 @@ header .content .fa-x:hover {
   align-items: center;
 }
 .register .container .content .form {
-  width: 768px;
+  width: 65%;
 }
 .register .container .content .form .inputs {
   width: 100%;
@@ -288,7 +343,7 @@ header .content .fa-x:hover {
   margin-bottom: 30px;
 }
 .register .container .content .form .inputs .input {
-  width: 372px;
+  width: 45%;
 }
 .register .container .content .form .inputs .input label {
   font-family: "Roboto", sans-serif;
@@ -326,7 +381,7 @@ header .content .fa-x:hover {
   align-items: center;
 }
 .register .container .content .topic .select .text {
-  width: 728px;
+  width: 100%;
   height: 24px;
 }
 .register .container .content .topic .select .text p {
@@ -360,7 +415,7 @@ header .content .fa-x:hover {
   margin-bottom: 10px;
 }
 .register .container .content .radios .contents .row .radio {
-  width: 372px;
+  width: 45%;
   display: flex;
   align-items: center;
 }
@@ -435,6 +490,34 @@ header .content .fa-x:hover {
 .register .container .content button:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+@media only screen and (max-width: 950px) {
+  .register {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2%;
+  }
+  .register .container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .register {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2%;
+  }
+  .register .container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .register .container .content .form .inputs {
+    display: block;
+  }
+  .register .container .content .form .inputs input {
+    margin-bottom: 20px;
+  }
 }
 
 .unlock {
