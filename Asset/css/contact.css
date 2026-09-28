@@ -210,7 +210,6 @@ header .content .fa-x:hover {
 .connect .container .content .right img {
   width: 100%;
   border-radius: 16px;
-  height: 516px;
 }
 @media only screen and (max-width: 950px) {
   .connect {

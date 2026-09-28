@@ -263,7 +263,6 @@ header .content .fa-x:hover {
 }
 .signup .container .right img {
   width: 100%;
-  height: 500px;
   border-radius: 16px;
 }
 @media only screen and (max-width: 950px) {
@@ -697,7 +696,6 @@ header .content .fa-x:hover {
 }
 .cta .container .right {
   width: 48%;
-  height: 400px;
 }
 .cta .container .right img {
   width: 100%;
